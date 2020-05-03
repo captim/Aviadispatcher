@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aviadispetcher", "Aviadispetcher_2\Aviadispetcher.csproj", "{94FA1033-C8A0-4121-9762-1632C8C424C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AviadispetcherTests", "AviadispetcherTests\AviadispetcherTests.csproj", "{40E70526-D212-40ED-BFB9-92A25C1A9927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94FA1033-C8A0-4121-9762-1632C8C424C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FA1033-C8A0-4121-9762-1632C8C424C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FA1033-C8A0-4121-9762-1632C8C424C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FA1033-C8A0-4121-9762-1632C8C424C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E70526-D212-40ED-BFB9-92A25C1A9927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E70526-D212-40ED-BFB9-92A25C1A9927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E70526-D212-40ED-BFB9-92A25C1A9927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E70526-D212-40ED-BFB9-92A25C1A9927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {393D75C9-819D-47B7-96DF-645FB7EFEE2D}
+	EndGlobalSection
+EndGlobal
