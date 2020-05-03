@@ -59,7 +59,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="LoginFormTests.cs" />
+    <Compile Include="MainWindowTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

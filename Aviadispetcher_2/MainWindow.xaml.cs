@@ -20,7 +20,7 @@ namespace Aviadispetcher
         private bool flightAdd = false;
         public FlightList fList = new FlightList();
         public FlightList temp = new FlightList();
-        private List<string> allCities = new List<string>();
+        public List<string> allCities = new List<string>();
         public static string selectedCity;
         public static TimeSpan timeFlight;
         public static Authorization logedUser = new Authorization();
@@ -194,7 +194,7 @@ namespace Aviadispetcher
             allCities = DBConnection.GetInstance().SelectAllCities();
             cityList.ItemsSource = allCities;
         }
-        private void SelectXYMenuItem_Click(object sender, RoutedEventArgs e)
+        public void SelectXYMenuItem_Click(object sender, RoutedEventArgs e)
         {
             selFlightGroupBox.Visibility = Visibility.Visible;
             sTime.IsEnabled = true;
