@@ -79,7 +79,7 @@ namespace Aviadispetcher
                 }
             }
         }
-        ~ConvertDataInDoc()
+        /*~ConvertDataInDoc()
         {
             if (wordDoc != null)
             {
@@ -89,6 +89,6 @@ namespace Aviadispetcher
             {
                 wordApp.Quit(WdSaveOptions.wdPromptToSaveChanges);
             }
-        }
+        }*/
     }
 }

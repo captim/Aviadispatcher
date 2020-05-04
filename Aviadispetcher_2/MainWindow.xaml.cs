@@ -33,6 +33,7 @@ namespace Aviadispetcher
         {
             try
             {
+                temp.Flights_list.Clear();
                 fList = DBConnection.GetInstance().GetAllFlights();
                 foreach (Flight flight in fList.Flights_list)
                 {
@@ -162,12 +163,12 @@ namespace Aviadispetcher
                 if (flightAdd)
                 {
                     DBConnection db = DBConnection.GetInstance();
-                    db.Update(fList.Flights_list[num]);
-                    fList.Flights_list[num].id = db.GetMaxId() + 1;
+                    db.Add(fList.Flights_list[num]);
+                    fList.Flights_list[num].id = db.GetMaxId();
                 }
                 else
                 {
-                    DBConnection.GetInstance().Add(fList.Flights_list[num]);
+                    DBConnection.GetInstance().Update(fList.Flights_list[num]);
                 }
             }
             catch (Exception ex)
@@ -242,7 +243,7 @@ namespace Aviadispetcher
         }
 
         private void InfoFlightForm_Activated(object sender, EventArgs e)
-        {
+            {
             if (Authorization.logUser == 2)
             {
                 FlightMenuItem.Visibility = Visibility.Visible;

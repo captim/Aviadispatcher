@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Airplane.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Interop.Microsoft.Office.Interop.Word">
       <HintPath>..\..\Aviadispetcher\Aviadispetcher\bin\Debug\netcoreapp3.0\Interop.Microsoft.Office.Interop.Word.dll</HintPath>
